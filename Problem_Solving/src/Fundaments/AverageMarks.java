@@ -18,6 +18,11 @@ public class AverageMarks {
 		System.out.println(ch);
 		System.out.println(Avg);
 		
+		
+		
+		
+		
+		
 	}
 
 }
