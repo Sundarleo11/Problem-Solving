@@ -2,7 +2,7 @@ package Patterns;
 
 import java.util.Scanner;
 
-public class Square_Pattern5 {
+public class invertTrianglenumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -10,17 +10,16 @@ public class Square_Pattern5 {
 		
 		int n=sc.nextInt();
 		
-		int i = 1;
-		while(i<=n) {
-			int j=1;
-			while(j<=n) {
-				System.out.print(n);
-				j++;
+		for(int i=1;i<=n;i++) {
+			for(int j=1;j<=n-i+1;j++) {
+				System.out.print(n-i+1);
+			}for(int k=1;k<=n;k++) {
+				System.out.print(" ");
 			}
 			System.out.println();
-			i++;
 		}
-
+		
+		
 	}
 
 }

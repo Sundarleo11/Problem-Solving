@@ -19,5 +19,7 @@ public class knowledgeTest {
     	 System.out.println("Queen");
      }
 	}
+	
+
 
 }
