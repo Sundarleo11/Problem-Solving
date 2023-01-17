@@ -9,6 +9,7 @@ public class ArrayIntersection {
 			//c = 0;
 			for (j = 0; j < arr2.length; j++) {
 				if (arr1[i] == arr2[j]) {
+					arr2[j]=Integer.MIN_VALUE;
 					System.out.print(arr1[i]+" ");
 				}
 			}
@@ -24,8 +25,10 @@ public class ArrayIntersection {
 		// TODO Auto-generated method stub
 		//int arr[] = { 3, 3, 1, 6, 1, 6, 9 };
 		//int arr[]= {0, 7, 2, 3, 4, 7, 9, 3, 9};
-		int arr2[]= {6,2,3};
-		int arr1[]= {9,6,9,3,4};
+		int arr2[]= {10};
+		int arr1[]= {10,10};
+		//int arr2[]= {6,2,3};
+		//int arr1[]= {9,6,9,3,4};
 		Find_Duplicate(arr1,arr2);
 
 	}
