@@ -1,6 +1,8 @@
+package ArrayList;
+
 import java.util.*;
 
-class Solution {
+class MaximumoccuredInteger {
 
 
     /*
@@ -78,7 +80,7 @@ Explanation: The given ranges are [1, 15] [5, 8] [9, 12] [13, 20] [21, 30]. The 
             R.add(sc.nextInt());
         }
 
-        Solution obj = new Solution();
+        MaximumoccuredInteger obj = new MaximumoccuredInteger();
         
         int result = obj.maxOccured(L, R);
         System.out.println(result);

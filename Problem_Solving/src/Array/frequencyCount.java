@@ -1,4 +1,5 @@
-import java.util.*;
+/*import java.util.*;
+
 /*
 Frequencies in a Limited Array
 Difficulty: EasyAccuracy: 27.64%Submissions: 383K+Points: 2Average Time: 10m
@@ -17,7 +18,7 @@ Output: [1]
 Explanation: We have: 1 occurring 1 time, and there are no other numbers between 1 and the size of the array.
 
 
-*/
+
 class Solution {
     public List<Integer> frequencyCount(int[] arr) {
         int n = arr.length;
@@ -54,3 +55,4 @@ public class Main {
         System.out.println(ans);
     }
 }
+*/

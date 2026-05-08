@@ -1,6 +1,6 @@
-import java.util.*;
+/*import java.util.*;
 
-/*
+
 Array Leaders
 Difficulty: EasyAccuracy: 29.94%Submissions: 951K+Points: 2Average Time: 15m
 You are given an array arr of positive integers. Your task is to find all the leaders in the array. An element is considered a leader if it is greater than or equal to all elements to its right. The rightmost element is always a leader.
@@ -23,7 +23,7 @@ Explanation: When an array is sorted in non-increasing order, all elements are l
 Simple Rule to Remember
 
 Start from right → keep max → if current ≥ max → it is a leader.
-*/
+
 
 class Solution {
 
@@ -60,3 +60,4 @@ class Solution {
         System.out.println("Leaders: " + leadersList);
     }
 }
+*/

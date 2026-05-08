@@ -1,3 +1,5 @@
+package ArrayList;
+
 import java.util.*;
 /*
 Given an array arr[] and two elements x and y, return the element that occurs more frequently. If both elements have the same frequency, return the smaller one.
@@ -16,7 +18,7 @@ Constraints:
 
 
 */
-class Solution {
+class moreFrequent {
     public int moreFrequent(List<Integer> arr, int x, int y) {
         int countX = 0, countY = 0;
 
@@ -39,7 +41,7 @@ class Solution {
 
     // Main method for testing
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        moreFrequent sol = new moreFrequent();
 
         // Example 1
         List<Integer> arr1 = Arrays.asList(1, 1, 2, 2, 3, 3, 4, 4, 4, 4, 5);

@@ -1,3 +1,5 @@
+package Array;
+
 import java.util.*;
 /*
 Equilibrium Point
@@ -19,7 +21,8 @@ Output: 3
 Explanation: The sum of left of index 3 is -7 + 1 + 5 = -1 and sum on right of index 3 is -4 + 3 + 0 = -1.
 
 
-*/
+
+
 class Solution {
 
     // Function to find equilibrium point in the array.
@@ -53,4 +56,7 @@ class Solution {
 
         System.out.println("Equilibrium Index: " + result);
     }
+
+
 }
+*/

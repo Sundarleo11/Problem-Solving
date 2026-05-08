@@ -1,6 +1,6 @@
-import java.util.*;
+package Array;
 
-class RearrangeAnArray {
+import java.util.*;
 
 /*
 
@@ -24,6 +24,8 @@ Output: [1]
 */
 
 
+
+public class Rearrange {
     public void rearrange(int arr[]) {
 
         // Step 1: Sort (required for max-min pattern)
@@ -56,17 +58,14 @@ Output: [1]
             arr[i] = arr[i] / maxElem;
         }
     }
-}
-
-public class Main {
-
+    
     public static void main(String[] args) {
 
         // Input array
         int[] arr = {890, 289, 483, 519, 550, 447, 946, 957, 92, 783};
 
         // Create object
-        Solution sol = new Solution();
+        Rearrange sol = new Rearrange();
 
         // Call rearrange
         sol.rearrange(arr);
@@ -79,4 +78,6 @@ public class Main {
         }
         System.out.println("]");
     }
+
+
 }

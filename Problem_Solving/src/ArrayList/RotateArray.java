@@ -1,3 +1,5 @@
+package ArrayList;
+
 // User function Template for Java
 /*
 
@@ -28,7 +30,7 @@ for (int i = 0; i < arr.length; i++) {
 }
 
 */
-class Solution {
+class RotateArray {
 
     // Function to rotate an array by d elements in counter-clockwise direction.
     static void rotateArr(int arr[], int d) {

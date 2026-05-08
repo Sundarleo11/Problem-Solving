@@ -1,3 +1,5 @@
+package ArrayList;
+
 import java.util.*;  // for ArrayList
 /*
 Strongest Neighbour
@@ -18,7 +20,7 @@ Constraints:
 
 
 */
-class Solution {
+class strongestNeighbour {
     public ArrayList<Integer> maxAdj(int[] arr) {
         int n = arr.length;
         ArrayList<Integer> num = new ArrayList<>(n - 1); // preallocate size for efficiency
@@ -34,7 +36,7 @@ class Solution {
 
     // Optional main() to test locally
     public static void main(String[] args) {
-        Solution s = new Solution();
+        strongestNeighbour s = new strongestNeighbour();
         int[] arr = {1, 5, 2, 9, 7};
         System.out.println(s.maxAdj(arr)); // Output: [5, 5, 9, 9]
     }

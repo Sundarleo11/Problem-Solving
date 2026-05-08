@@ -23,7 +23,7 @@ Constraints:
 
 
 
-*/
+
 class Solution {
 
     public int missingNumber(int[] arr) {
@@ -67,3 +67,4 @@ class Solution {
         System.out.println("Smallest missing positive number is: " + res);
     }
 }
+*/

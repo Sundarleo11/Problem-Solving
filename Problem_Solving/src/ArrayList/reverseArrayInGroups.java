@@ -1,3 +1,5 @@
+package ArrayList;
+
 import java.util.*;
 /*
 Given an array arr[] of positive integers. Reverse every sub-array group of size k.
@@ -17,7 +19,7 @@ Constraints:
 
 
 */
-class Solution {
+class reverseArrayInGroups {
     public void reverseInGroups(int[] arr, int k) {
         int n = arr.length;
 
@@ -55,7 +57,7 @@ class Solution {
 
     // testing
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        reverseArrayInGroups sol = new reverseArrayInGroups();
 
         int[] arr1 = {1, 2, 3, 4, 5};
         sol.reverseInGroups(arr1, 3);
